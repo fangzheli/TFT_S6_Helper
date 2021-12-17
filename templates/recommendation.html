@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>TFT S6 Recommendation</title>
+</head>
+<body>
+<h1> The recommendation is based on your available champions. </h1>
+<div class="current_available">
+        {% for champion in champions %}
+            <img class=icon src="../static/imgs/{{champion}}.png" alt={{champion}}>
+        {% endfor %}
+{% if win_rate == 0 %}
+    <p> There is no available recommendation for now</p>
+{% else %}
+    <h1> You are recommended the following comp! </h1>
+    <div class="recommended_comps">
+        {% for champion in recommendation_comp %}
+        <img class=icon src="../static/imgs/{{champion}}.png" alt={{champion}}>
+        {% endfor %}
+    </div>
+    <p> The expected win rate is {{win_rate}}</p>
+{% endif %}
+</body>
+</html>

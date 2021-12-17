@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+    background-image: url("../imgs/tft_background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+
+.champion{
+    min-width: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.champions{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.champion > img{
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    min-height: 55px;
+    border: 1px solid #17313a;
+}
+
+.submit{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+img{
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    min-height: 55px;
+    border: 1px solid #17313a;
+}
+
+
