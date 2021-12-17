@@ -25,3 +25,6 @@ The known problem<br />
 Future Work<br />
 1. improve the recommendation algorithm<br />
 2. add and beautify flask page<br />
+
+![image](https://user-images.githubusercontent.com/48412604/146498622-3240377d-293f-49ec-b385-12d2344fc45d.png)
+![image](https://user-images.githubusercontent.com/48412604/146498693-a32437a5-339b-4479-900b-a0cfd3c7e6cf.png)
