@@ -17,10 +17,11 @@ Data Access and Storage<br />
 I use selenium to get the page I want because this website use JavaScript to load the pages, so I use Selenium and pause for a few second and get the html file. Then I use beautifulsoup to parse it and it works well.
  
 Data Processing<br />
-A binary search tree for different traits with their win rates. After the user inputs the champions that they have currently, the helper will check the traits and search it in the binary search tree to get its win rate.
+A binary search tree for different traits with their win rates. After the user inputs the champions that they have currently, the helper will check the traits and search it in the binary search tree to get its win rate. I put these classes and functions in tree_structure.py. Since the data amount for my project is not huge, I decide just build the tree every time. 
+![image](https://user-images.githubusercontent.com/48412604/146501128-b2f5ff18-d444-4b88-a1a6-2343976ed9e3.png)
 
 Data Presentation<br />
-A Flask app is created to demonstrate the content.
+A Flask app is created to demonstrate the content. I try to use some background image and flexbox to make the html more readable. Since I use flexbox, I make it a little kind of responsive design so people can use it in smartphone. And since it gives the user every freedom degree to choose their champions, levels. I can't say there are four different display modes. Actually, there are a huge amount of them. The user should first choose the level they belong to and then click the champions that they have on their team or on the store for this round.
 
 The known problem<br />
 1. When people don't click any champions but clicking "get recommendation", they may get a very simple page to tell them there is not enough champions clicked.<br />
