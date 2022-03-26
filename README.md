@@ -5,7 +5,7 @@ Teamfight Tactics (TFT) is an auto battler game based on the universe of League 
 How to use it<br />
 Link to the repo: https://github.com/fangzheli/TFT_S6_Helper/<br />
 The default homepage for TFT helper is http://127.0.0.1:5000/helper<br />
-Two functions get_champions() and get_traits_rank() are used to get the dynamic websites by selenium. Two functions clean_champions_synergy() and clean_traits_rank() are used to process the two htmls mentioned above to json. These four functions only need to be runned when there is a need to update or rescrap the page. When running the flask, there is no need for running these functions so I have commented out these functions in the main functions.
+Two functions get_champions() and get_traits_rank() are used to get the dynamic websites by selenium. Two functions clean_champions_synergy() and clean_traits_rank() are used to process the two htmls mentioned above to json. These four functions are only needed to be runned when there is a need to update or rescrap the page. When running the flask, there is no need for running these functions so I have commented out these functions in the main functions.
 Required packages are requests, flask, bs4 and selenium.
 
 Data Source<br />
